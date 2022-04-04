@@ -1,0 +1,23 @@
+/*
+Project 2: Nick Markel
+CS 210
+*/
+#include <iostream>
+#include "Bank.h"
+
+using namespace std;
+/// <summary>
+/// Made as simple as possible. Only calls functions it needs. Minimal code in the main.
+/// </summary>
+/// <returns></returns>
+int main()
+{
+    Bank bank;
+
+    bank.MenuScreen();
+    bank.Input();
+    bank.Interest();
+    bank.PrintInput();
+    bank.BalanceScreenWithout();
+    bank.BalanceScreenWith();
+}
